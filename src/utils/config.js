@@ -18,6 +18,9 @@ const config = {
     reversed: true,
   },
   plotOptions: {
+    bar: {
+      showInLegend: false,
+    },
     series: {
       stacking: "normal",
     },
